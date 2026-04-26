@@ -54,4 +54,4 @@ This project follows WCAG 2.1 AA guidelines:
 This site is deployed using GitHub Pages and WCET server hosting.
 
 ## 📬 Contact
-Created by Krishana for WEB‑140.  
+Created by Krishana for WEB‑210.  
