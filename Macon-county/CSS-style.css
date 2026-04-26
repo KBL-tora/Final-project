@@ -1,0 +1,69 @@
+/* COLOR PALETTE */
+:root {
+    --forest: #2F5D3A;
+    --pine: #1E3A24;
+    --sand: #D9CBB3;
+    --clay: #F2EDE3;
+    --gray: #F7F7F7;
+    --charcoal: #333333;
+    --gold: #C9A227;
+}
+
+/* GLOBAL */
+body {
+    font-family: "Segoe UI", sans-serif;
+    color: var(--charcoal);
+    background-color: white;
+}
+
+.text-forest { color: var(--forest); }
+.bg-forest { background-color: var(--forest); }
+.bg-pine { background-color: var(--pine); }
+
+.btn-forest {
+    background-color: var(--forest);
+    color: white;
+}
+.btn-forest:hover {
+    background-color: var(--pine);
+}
+
+.btn-outline-forest {
+    border: 2px solid var(--forest);
+    color: var(--forest);
+}
+.btn-outline-forest:hover {
+    background-color: var(--forest);
+    color: white;
+}
+
+/* NAVBAR */
+.navbar-brand span {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.seal-logo {
+    width: 200px;
+    height: 200px;
+}
+
+/* HERO */
+.hero-split {
+    background-color: var(--clay);
+}
+
+.hero-left {
+    background-color: var(--clay);
+}
+
+.hero-img {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--pine);
+    color: var(--sand);
+}
